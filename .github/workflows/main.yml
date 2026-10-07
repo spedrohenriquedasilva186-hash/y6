@@ -1,0 +1,19 @@
+{"action": "Clicked left at (612, 335)", "screen_changed": true, "reaction_time_ms": 180}{
+  "mcpServers": {
+    "ghostdesk": {
+      "type": "http",
+      "url": "http://localhost:3000/mcp"
+    }
+  }
+}{
+  "mcpServers": {
+    "ghostdesk": {
+      "type": "http",
+      "url": "http://localhost:3000/mcp"
+    }
+  }
+}docker run -d --name ghostdesk-demo \
+  --shm-size 2g \
+  -p 3000:3000 \
+  -p 6080:6080 \
+  ghcr.io/yv17labs/ghostdesk:latest{"action": "Clicked left at (612, 335)", "screen_changed": true, "reaction_time_ms": 180}
